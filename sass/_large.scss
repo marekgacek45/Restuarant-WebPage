@@ -1,0 +1,17 @@
+@media(min-width: 992px){
+
+.hamburger{
+    display: none;
+}
+
+    .nav{
+        &__box-logo{
+            margin-left: 1em;
+        }
+
+
+        &__list{
+            display: block;
+        }
+    }
+}

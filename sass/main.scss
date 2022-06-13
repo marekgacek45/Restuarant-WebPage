@@ -19,17 +19,31 @@ body {
 	font-size: 1.6rem;
 }
 
+.hamburger {
+	margin-left: 1em;
+
+	&-inner,
+	&-inner::before,
+	&-inner::after {
+		background-color: $white;
+		z-index: 10000;
+	}
+}
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+    background-color: $white
+}
+
 .nav {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: $first-color;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: $first-color;
 
 	&__container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 1em 2em;
+		padding: 0.5em 1em;
 	}
 	&__box {
 		display: flex;
@@ -39,14 +53,17 @@ body {
 
 	&__box-logo {
 		left: 0;
-		width: 2em;
-		margin-left: 1em;
+		width: 3em;
 	}
 
 	&__box-header {
-		font-size: 2.5rem;
+		font-size: 3rem;
 		margin-left: 0.5em;
 		color: $white;
+	}
+
+	&__list {
+		display: none;
 	}
 	&__item {
 		position: relative;
@@ -61,3 +78,6 @@ body {
 		}
 	}
 }
+
+// MEDIA QUERIES
+@import './large';
