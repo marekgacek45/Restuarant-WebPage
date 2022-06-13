@@ -4,16 +4,16 @@
 	}
 
 	.nav {
-		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
 		align-items: center;
 
-		&__links-ul {
+		&__links{
 			display: flex;
+		}
+
+		&__links-ul {
 			flex-direction: row;
 			justify-content: flex-end;
-			align-items: center;
 		}
 	}
 }
