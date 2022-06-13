@@ -19,6 +19,8 @@ body {
 	font-size: 1.6rem;
 }
 
+// HAMBURGER
+
 .hamburger {
 	margin-left: 1em;
 
@@ -29,10 +31,13 @@ body {
 		z-index: 10000;
 	}
 }
-.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
-    background-color: $white
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+	background-color: $white;
 }
 
+// NAVIGATION
 .nav {
 	position: sticky;
 	top: 0;
@@ -40,6 +45,7 @@ body {
 	background-color: $first-color;
 
 	&__container {
+		position: relative;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -64,6 +70,15 @@ body {
 
 	&__list {
 		display: none;
+
+		&--mobile {
+			display: none;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: .5em;
+			background-color: yellow;
+		}
 	}
 	&__item {
 		position: relative;
@@ -72,12 +87,26 @@ body {
 		text-transform: uppercase;
 		margin-left: 1em;
 
-		a {
-			text-decoration: none;
-			color: $white;
+		&--mobile{
+			padding: .5em;
+		}
+
+	}
+	&__item-link {
+		text-decoration: none;
+		color: $white;
+
+		&--mobile{
+			color: $dark
 		}
 	}
 }
+
+.nav__list--mobile--isActive{
+	display: flex;
+}
+
+
 
 // MEDIA QUERIES
 @import './large';

@@ -12,6 +12,10 @@
 
         &__list{
             display: block;
+
+            &--mobile{
+                display: none;
+            }
         }
     }
 }
