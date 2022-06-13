@@ -41,6 +41,8 @@ body {
 
 // NAVIGATION
 .nav {
+	position: fixed;
+	top: 0;
 	background-color: $first-color;
 	width: 100%;
 
@@ -99,6 +101,13 @@ body {
 
 .active {
 	display: flex;
+}
+
+.test{
+	position: sticky;
+	height: 30px;
+	width: 100%;
+	background-color: yellow;
 }
 
 // MEDIA QUERIES

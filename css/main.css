@@ -41,6 +41,8 @@ body {
 }
 
 .nav {
+  position: fixed;
+  top: 0;
   background-color: #ed5440;
   width: 100%;
 }
@@ -124,6 +126,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.test {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 30px;
+  width: 100%;
+  background-color: yellow;
 }
 
 @media (min-width: 992px) {
