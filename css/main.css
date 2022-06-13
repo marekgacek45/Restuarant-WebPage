@@ -97,6 +97,12 @@ body {
 .nav__links-li {
   list-style: none;
   text-align: center;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+.nav__links-li:hover {
+  background-color: #b13f30;
 }
 
 .nav__links-a {

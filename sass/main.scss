@@ -76,6 +76,11 @@ body {
 	&__links-li {
 		list-style: none;
 		text-align: center;
+		transition:background-color .5s
+	}
+
+	&__links-li:hover{
+		background-color: $first-color-darker;
 	}
 
 	&__links-a {
