@@ -1,4 +1,5 @@
 @import './colors';
+@import './components';
 
 *,
 *::before,
@@ -8,13 +9,55 @@
 	padding: 0;
 }
 
-html{
-    font-size: 62,5%;
-    scroll-behavior: smooth;
+html {
+	font-size: 62, 5%;
+	scroll-behavior: smooth;
 }
 
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: $first-color;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1em 2em;
+	}
+	&__box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__box-logo {
+		left: 0;
+		width: 2em;
+		margin-left: 1em;
+	}
+
+	&__box-header {
+		font-size: 2.5rem;
+		margin-left: 0.5em;
+		color: $white;
+	}
+	&__item {
+		position: relative;
+		display: inline-block;
+		align-items: center;
+		text-transform: uppercase;
+		margin-left: 1em;
+
+		a {
+			text-decoration: none;
+			color: $white;
+		}
+	}
 }
