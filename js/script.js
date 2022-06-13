@@ -1,10 +1,9 @@
 const hamburgerBtn = document.querySelector('.hamburger')
-const mobileNav = document.querySelector('.nav__list--mobile')
-
+const links = document.querySelector('.nav__links')
 
 const hamburger = () => {
 	hamburgerBtn.classList.toggle('is-active')
-	mobileNav.classList.toggle('nav__list--mobile--isActive')
+	links.classList.toggle('active')
 	
 }
 
