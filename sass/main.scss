@@ -41,12 +41,16 @@ body {
 
 // NAVIGATION
 .nav {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
 	background-color: $first-color;
-	color: white;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		color: white;
+	}
 
 	&__box {
 		display: flex;
@@ -57,6 +61,7 @@ body {
 	&__box-logo {
 		left: 0;
 		width: 3em;
+		margin-left: 1em;
 	}
 
 	&__box-header {
@@ -77,10 +82,10 @@ body {
 	&__links-li {
 		list-style: none;
 		text-align: center;
-		transition:background-color .5s
+		transition: background-color 0.5s;
 	}
 
-	&__links-li:hover{
+	&__links-li:hover {
 		background-color: $first-color-darker;
 	}
 
