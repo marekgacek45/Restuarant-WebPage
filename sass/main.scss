@@ -45,6 +45,7 @@ body {
 	top: 0;
 	background-color: $first-color;
 	width: 100%;
+	z-index: 10000;
 
 	&__container {
 		display: flex;
@@ -103,11 +104,38 @@ body {
 	display: flex;
 }
 
-.test{
-	position: sticky;
-	height: 30px;
+//HEADER
+
+.header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
 	width: 100%;
-	background-color: yellow;
+	height: 100vh;
+	background-image: url(../img/header-mini.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -10;
+	&__shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.4);
+		z-index: 0;
+	}
+	&__heading {
+		padding: 0 1em;
+		text-align: center;
+		color: $first-color;
+	}
+	&__text{
+		padding: 2em;
+		text-align: center;
+		color: $white;
+		font-size: 1rem;
+	}
 }
 
 // MEDIA QUERIES
