@@ -22,6 +22,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
+  background-color: #294734;
 }
 
 .hamburger {
@@ -172,6 +173,56 @@ body {
   font-size: 1rem;
 }
 
+.about {
+  background-color: #294734;
+}
+
+.about__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em 0;
+}
+
+.about__heading {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #ed5440;
+}
+
+.about__box-img {
+  overflow: hidden;
+}
+
+.about__box-img img {
+  padding: 1em;
+  width: 100%;
+}
+
+.about__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.about__text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
 @media (min-width: 992px) {
   .hamburger {
     display: none;
@@ -213,6 +264,15 @@ body {
   }
   .header__text {
     font-size: 1.5rem;
+  }
+  .about__box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about__box-img img {
+    width: 150%;
   }
 }
 /*# sourceMappingURL=main.css.map */

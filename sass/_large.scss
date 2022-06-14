@@ -4,14 +4,14 @@
 	}
 
 	.nav {
-		&__container{
+		&__container {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
 		}
 
-		&__links{
+		&__links {
 			display: flex;
 		}
 
@@ -21,13 +21,22 @@
 		}
 	}
 
-	.header{
+	.header {
 		background-image: url(../img/header-big.jpg);
-		&__heading{
+		&__heading {
 			font-size: 5rem;
 		}
-		&__text{
-			font-size: 1.5rem;	
+		&__text {
+			font-size: 1.5rem;
+		}
+	}
+
+	.about {
+		&__box {
+			flex-direction: row;
+		}
+		&__box-img{
+			img{width: 150%;}
 		}
 	}
 }

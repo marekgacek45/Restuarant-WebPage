@@ -17,6 +17,7 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.6rem;
+	background-color: $second-color;
 }
 
 // HAMBURGER
@@ -130,11 +131,49 @@ body {
 		text-align: center;
 		color: $first-color;
 	}
-	&__text{
+	&__text {
 		padding: 2em;
 		text-align: center;
 		color: $white;
 		font-size: 1rem;
+	}
+}
+
+//ABOUT US
+
+.about {
+	background-color: $second-color;
+	&__box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 2em 0;
+	}
+
+	&__heading {
+		text-transform: uppercase;
+		font-size: 3rem;
+		color: $first-color;
+	}
+	&__box-img {
+		overflow: hidden;
+		img {
+			padding: 1em;
+			width: 100%;
+		}
+	}
+	&__title{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		margin-bottom: 1em;
+		color: $white;
+	}
+	&__text{
+		text-align: center;
+		font-size: 1.2rem;
+		color: $white;
 	}
 }
 
