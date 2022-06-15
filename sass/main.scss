@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: sans-serif;
 	font-size: 1.6rem;
 	background-color: $second-color;
 }
@@ -123,7 +123,7 @@ body {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: rgba(0, 0, 0, 0.6);
 		z-index: 0;
 	}
 	&__heading {
@@ -162,26 +162,25 @@ body {
 		img {
 			padding: 1em;
 			width: 100%;
-			transition: transform .3s;
+			transition: transform 0.3s;
 		}
-		img:hover{
+		img:hover {
 			transform: scale(1.1);
 		}
 	}
 
+	&__box-text {
+		padding: 0 1em;
+	}
 
-&__box-text{
-	padding: 0 1em;
-}
-
-	&__title{
+	&__title {
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 1.5rem;
 		margin-bottom: 1em;
-		color: $white;
+		color: $first-color;
 	}
-	&__text{
+	&__text {
 		text-align: center;
 		font-size: 1.2rem;
 		color: $white;
@@ -189,7 +188,7 @@ body {
 }
 
 // HERO-IMG
-.hero-img{
+.hero-img {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -205,13 +204,13 @@ body {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: rgba(0, 0, 0, 0.6);
 		z-index: 0;
 	}
 	&__heading {
 		padding: 0 1em;
 		text-align: center;
-		color: $second-color;
+		color: $first-color;
 		text-transform: uppercase;
 		z-index: 10;
 	}
@@ -221,8 +220,56 @@ body {
 		color: $white;
 		font-size: 1rem;
 		z-index: 10;
-}}
+	}
+}
 
+// MENU
+.menu {
+	&__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 1em;
+		padding: 3em 2em;
+		border: 3px solid transparent;
+		box-shadow: 5px 5px 15px black inset;
+		color: $white;
+	}
+
+	&__card-heading{
+		font-size: 2rem;
+		margin-bottom: 1.5em;
+		text-transform: uppercase;
+		color: $first-color;
+	}
+	&__card-img{
+		width: 30%;
+		margin-bottom: 1.5em;
+	}
+	&__card-title{
+		font-size: 1.2rem;
+		margin-bottom: 1.5em;
+		text-transform: uppercase;
+	}
+	&__card-text{
+		font-size: 1rem;
+		margin-bottom: 2em;
+	}
+	&__card-button{
+		padding: 1em 2em;
+		background: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-radius: 8px;
+		color: $white;
+		transition: background-color .3s;
+		cursor: pointer;
+	}
+&__card-button:hover{
+	background-color: $first-color;
+}
+}
 
 // MEDIA QUERIES
 @import './large';
