@@ -50,6 +50,15 @@
 		&__title {
 			font-size: 2rem;
 		}
-		
+	}
+
+	.hero-img {
+		background-image: url(../img/hero-img-big.jpg);
+		&__heading {
+			font-size: 5rem;
+		}
+		&__text {
+			font-size: 1.5rem;
+		}
 	}
 }

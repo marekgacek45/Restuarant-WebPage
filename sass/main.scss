@@ -129,6 +129,7 @@ body {
 	&__heading {
 		padding: 0 1em;
 		text-align: center;
+		text-transform: uppercase;
 		color: $first-color;
 	}
 	&__text {
@@ -185,8 +186,43 @@ body {
 		font-size: 1.2rem;
 		color: $white;
 	}
-	
 }
+
+// HERO-IMG
+.hero-img{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	background-image: url(../img/hero-img-mini.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -10;
+	&__shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.4);
+		z-index: 0;
+	}
+	&__heading {
+		padding: 0 1em;
+		text-align: center;
+		color: $second-color;
+		text-transform: uppercase;
+		z-index: 10;
+	}
+	&__text {
+		padding: 2em;
+		text-align: center;
+		color: $white;
+		font-size: 1rem;
+		z-index: 10;
+}}
+
 
 // MEDIA QUERIES
 @import './large';
