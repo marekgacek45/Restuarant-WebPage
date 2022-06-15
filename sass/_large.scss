@@ -34,9 +34,22 @@
 	.about {
 		&__box {
 			flex-direction: row;
+			justify-content: space-between;
 		}
-		&__box-img{
-			img{width: 150%;}
+		&__box-img {
+			&--right {
+				order: 1;
+			}
 		}
+		&__box-text {
+			width: 70%;
+			&--right {
+				text-align: right;
+			}
+		}
+		&__title {
+			font-size: 2rem;
+		}
+		
 	}
 }

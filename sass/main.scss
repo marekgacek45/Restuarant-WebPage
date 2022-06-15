@@ -151,18 +151,28 @@ body {
 		margin: 2em 0;
 	}
 
-	&__heading {
-		text-transform: uppercase;
-		font-size: 3rem;
-		color: $first-color;
-	}
+	// &__heading {
+	// 	text-transform: uppercase;
+	// 	font-size: 3rem;
+	// 	color: $first-color;
+	// }
 	&__box-img {
-		overflow: hidden;
+		// overflow: hidden;
 		img {
 			padding: 1em;
 			width: 100%;
+			transition: transform .3s;
+		}
+		img:hover{
+			transform: scale(1.1);
 		}
 	}
+
+
+&__box-text{
+	padding: 0 1em;
+}
+
 	&__title{
 		text-align: center;
 		text-transform: uppercase;
@@ -175,6 +185,7 @@ body {
 		font-size: 1.2rem;
 		color: $white;
 	}
+	
 }
 
 // MEDIA QUERIES
