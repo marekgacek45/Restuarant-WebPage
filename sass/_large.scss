@@ -68,8 +68,21 @@
 		display: flex;
 		justify-content: space-between;
 		}
-		&__card{
-			
-		}
 	}
-}
+
+	.reviews {
+		&__heading{
+			font-size: 3rem;
+		}
+		&__box {
+			padding: 4em;
+		}
+		&__text{
+			font-size: 1.5rem;
+			&--strong{
+				font-size: 2rem;
+			}
+			&--mini{
+				font-size: 1rem;
+			}
+}}}
