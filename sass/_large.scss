@@ -65,24 +65,41 @@
 	.menu {
 		margin: 2em;
 		&__cards {
-		display: flex;
-		justify-content: space-between;
+			display: flex;
+			justify-content: space-between;
 		}
 	}
 
 	.reviews {
-		&__heading{
+		&__heading {
 			font-size: 3rem;
 		}
 		&__box {
 			padding: 4em;
 		}
-		&__text{
+		&__text {
 			font-size: 1.5rem;
-			&--strong{
+			&--strong {
 				font-size: 2rem;
 			}
-			&--mini{
+			&--mini {
 				font-size: 1rem;
 			}
-}}}
+		}
+	}
+	.hero-img2 {
+		background-image: url(../img/hero-img2-big.jpg);
+		&__heading {
+			font-size: 5rem;
+		}
+		&__text {
+			font-size: 1.5rem;
+		}
+	}
+
+	.gallery{
+		&__img{
+			margin: 1em;
+		}
+	}
+}

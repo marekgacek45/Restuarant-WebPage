@@ -339,5 +339,21 @@ body {
 	}
 }
 
+//GALLERY
+.gallery{
+margin: 1em;
+padding: 1em .5em;
+
+&__header{
+	text-align: center;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	color: $first-color
+}
+&__img{
+	width: 150px;
+}
+}
+
 // MEDIA QUERIES
 @import './large';

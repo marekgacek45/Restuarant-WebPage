@@ -415,6 +415,22 @@ body {
   z-index: 10;
 }
 
+.gallery {
+  margin: 1em;
+  padding: 1em .5em;
+}
+
+.gallery__header {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  color: #ed5440;
+}
+
+.gallery__img {
+  width: 150px;
+}
+
 @media (min-width: 992px) {
   .hamburger {
     display: none;
@@ -514,6 +530,18 @@ body {
   }
   .reviews__text--mini {
     font-size: 1rem;
+  }
+  .hero-img2 {
+    background-image: url(../img/hero-img2-big.jpg);
+  }
+  .hero-img2__heading {
+    font-size: 5rem;
+  }
+  .hero-img2__text {
+    font-size: 1.5rem;
+  }
+  .gallery__img {
+    margin: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
