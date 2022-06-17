@@ -517,6 +517,11 @@ body {
   color: #fff;
 }
 
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+
 @media (min-width: 992px) {
   .hamburger {
     display: none;

@@ -404,5 +404,12 @@ body {
 }
 }
 
+// FOOTER
+
+.footer{
+	background-color: $dark;
+	color: $white
+}
+
 // MEDIA QUERIES
 @import './large';
