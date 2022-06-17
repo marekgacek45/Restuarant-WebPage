@@ -288,16 +288,16 @@ body {
 		color: $white;
 		box-shadow: 3px 3px 10px #333 inset;
 	}
-	&__text{
+	&__text {
 		font-size: 1.1rem;
 		margin-bottom: 1.5em;
 		text-align: center;
-		&--strong{
-			margin-bottom:0 ;
+		&--strong {
+			margin-bottom: 0;
 			font-weight: bold;
 			font-size: 1.4rem;
 		}
-		&--mini{
+		&--mini {
 			font-size: 0.8rem;
 		}
 	}
@@ -340,18 +340,67 @@ body {
 }
 
 //GALLERY
-.gallery{
-margin: 1em;
-padding: 1em .5em;
+.gallery {
+	margin: 1em;
+	padding: 1em 0.5em;
 
-&__header{
-	text-align: center;
-	margin-bottom: 1em;
-	text-transform: uppercase;
-	color: $first-color
+	&__img {
+		width: 150px;
+	}
 }
-&__img{
-	width: 150px;
+
+// CONTACT
+
+.contact {
+	// height: 75vh;
+	&__box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__form{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 1em 2em;
+	}
+	&__input{
+		padding: 1em 2em;
+		margin-bottom: 2em;
+		width: 100%;
+		background: none;
+		border-radius: 8px;
+		border-bottom: 2px solid $first-color;
+		color: $white;
+
+	}
+
+	&__input::placeholder{
+		text-transform: uppercase;
+	}
+	&__text-area{
+		min-width: 100%;
+		max-width: 500px;
+		width: 100%;
+		min-height: 300px;
+		max-height: 300px;
+	}
+&__text{
+	text-align: center;
+	padding: 1em
+}
+&__text-header{
+	margin-bottom: 1em;
+	margin-top: 2em;
+	text-transform: uppercase;
+	color: $white
+}
+&__text-p{
+	margin-bottom: 1em;
+	font-size: 1.3rem;
+	color: $white
 }
 }
 
