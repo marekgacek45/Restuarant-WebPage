@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.6rem;
 	background-color: $second-color;
 }
@@ -108,36 +108,9 @@ body {
 //HEADER
 
 .header {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	position: relative;
-	width: 100%;
 	height: 100vh;
 	background-image: url(../img/header-mini.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	z-index: -10;
-	&__shadow {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, 0.6);
-		z-index: 0;
-	}
-	&__heading {
-		padding: 0 1em;
-		text-align: center;
-		text-transform: uppercase;
-		color: $first-color;
-	}
-	&__text {
-		padding: 2em;
-		text-align: center;
-		color: $white;
-		font-size: 1rem;
-	}
+
 }
 
 //ABOUT US
@@ -187,40 +160,12 @@ body {
 	}
 }
 
-// HERO-IMG
-.hero-img {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	position: relative;
-	width: 100%;
+// HEADER-SECOND
+.header-second {
+
 	height: 80vh;
 	background-image: url(../img/hero-img-mini.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	z-index: -10;
-	&__shadow {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, 0.6);
-		z-index: 0;
-	}
-	&__heading {
-		padding: 0 1em;
-		text-align: center;
-		color: $first-color;
-		text-transform: uppercase;
-		z-index: 10;
-	}
-	&__text {
-		padding: 2em;
-		text-align: center;
-		color: $white;
-		font-size: 1rem;
-		z-index: 10;
-	}
+	
 }
 
 // MENU
@@ -303,40 +248,10 @@ body {
 	}
 }
 
-// HERO-IMG2
-.hero-img2 {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	position: relative;
-	width: 100%;
+// HEADER-THIRD
+.header-third {
 	height: 80vh;
-	background-image: url(../img/hero-img2-mini.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	z-index: -10;
-	&__shadow {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, 0.6);
-		z-index: 0;
-	}
-	&__heading {
-		padding: 0 1em;
-		text-align: center;
-		color: $first-color;
-		text-transform: uppercase;
-		z-index: 10;
-	}
-	&__text {
-		padding: 2em;
-		text-align: center;
-		color: $white;
-		font-size: 1rem;
-		z-index: 10;
-	}
+	background-image: url(../img/hero-img2-mini.jpg)
 }
 
 //GALLERY

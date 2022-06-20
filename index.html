@@ -5,28 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restauracja</title>
+    <title>Aloha Kitchen</title>
     <link rel="stylesheet" href="./css/hamburger.css">
     <link rel="stylesheet" href="./css/main.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,400&family=Sacramento&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chango&family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
+    <!-- NAVIGATION -->
     <nav class="nav">
-
         <div class=" nav__container wrapper">
             <div class="nav__box">
                 <a href="#">
                     <img src="./img/logo.png" alt="logo restauracji" class="nav__box-logo"></a>
                 <h3 class="nav__box-header">Aloha</h3>
             </div>
-
-
             <div class="nav__links">
                 <ul class="nav__links-ul">
                     <li class="nav__links-li"><a href="#about" class="nav__links-a">O nas</a></li>
@@ -35,7 +33,6 @@
                     <li class="nav__links-li"><a href="#contact" class="nav__links-a">Kontakt</a></li>
                 </ul>
             </div>
-
             <button class="hamburger hamburger--spin " type="button">
                 <span class="hamburger-box">
                     <span class="hamburger-inner"></span>
@@ -43,23 +40,21 @@
             </button>
         </div>
     </nav>
-
-
-
-    <header class="header">
-        <div class="header__shadow"></div>
+    <!-- HEADER -->
+    <header class="header hero-img">
+        <div class="hero-img__shadow"></div>
         <div class="wrapper">
-            <h1 class="header__heading">Aloha Kitchen</h1>
-            <p class="header__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum rerum iste
+            <h1 class="hero-img__heading">Aloha Kitchen</h1>
+            <p class="hero-img__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum rerum iste
                 vero, consectetur veniam!</p>
         </div>
     </header>
-
+    <!-- MAIN -->
     <main class="main">
+        <!-- ABOUT -->
         <section class="about" id="about">
             <div class="wrapper">
                 <div class="about__box">
-                    <!-- <h2 class="about__heading about__heading--center">Filozofia</h2> -->
                     <div class="about__box-img">
                         <img src="./img/about1.jpg" alt="nachosy oraz sosy">
                     </div>
@@ -70,11 +65,8 @@
                             sit amet consectetur adipisicing elit. Fuga, ducimus. Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Cupiditate, libero.</p>
                     </div>
-
                 </div>
-
                 <div class="about__box">
-                    <!-- <h2 class="about__heading">Historia</h2> -->
                     <div class="about__box-img about__box-img--right">
                         <img src="./img/about2.jpg" alt="tortilla oraz sosy">
                     </div>
@@ -88,17 +80,18 @@
                 </div>
             </div>
         </section>
-
-        <section class="hero-img">
+<!-- HEADER-SECOND -->
+        <section class="header-second hero-img">
             <div class="hero-img__shadow"></div>
+            <div class="wrapper">
             <h1 class="hero-img__heading">La Cucina Mexicano</h1>
             <p class="hero-img__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsam.</p>
+        </div>
         </section>
 
-
+<!-- MENU -->
         <section class="menu" id="menu">
             <div class="wrapper">
-
                 <div class="menu__cards">
                     <div class="menu__card">
                         <h2 class="menu__card-heading">Śniadania</h2>
@@ -108,7 +101,6 @@
                             laudantium atque? Maxime, esse nemo.</p>
                         <button class="menu__card-button">menu śniadaniowe</button>
                     </div>
-
                     <div class="menu__card">
                         <h2 class="menu__card-heading">Tacosy</h2>
                         <img src="./img/taco.png" alt="" class="menu__card-img">
@@ -117,7 +109,6 @@
                             laudantium atque? Maxime, esse nemo.</p>
                         <button class="menu__card-button">menu tapas</button>
                     </div>
-
                     <div class="menu__card">
                         <h2 class="menu__card-heading">Alkohole</h2>
                         <img src="./img/wine-glasses.png" alt="" class="menu__card-img">
@@ -129,9 +120,8 @@
                 </div>
             </div>
         </section>
-
+        <!-- REVIEWS -->
         <section class="reviews">
-
             <div class="wrapper">
                 <h3 class="reviews__heading">Opinie naszych gości</h3>
 
@@ -165,10 +155,12 @@
             </div>
         </section>
 
-        <section class="hero-img2">
-            <div class="hero-img2__shadow"></div>
-            <h1 class="hero-img2__heading">Solo productos frescos</h1>
-            <p class="hero-img2__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsam.</p>
+        <section class=" header-third hero-img">
+            <div class="hero-img__shadow"></div>
+            <div class="wrapper">
+            <h1 class="hero-img__heading">Solo productos frescos</h1>
+            <p class="hero-img__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsam.</p>
+            </div>
         </section>
 
 
@@ -235,7 +227,7 @@
             </div>
             <hr>
             <p class="footer__bottom-text">&copy; <span class="footer__year"></span> Aloha Restaurant</p>
-            <p class="footer__author">design by <a href="https://github.com/gacmen45"> gacmen45 <^^></a></p>
+            <p class="footer__author">design by <a href="https://github.com/gacmen45"> gacmen45</a></p>
         </div>
     </footer>
 
