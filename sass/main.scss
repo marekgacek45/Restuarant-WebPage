@@ -359,14 +359,14 @@ body {
 		justify-content: center;
 		align-items: center;
 	}
-	&__form{
+	&__form {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		padding: 1em 2em;
 	}
-	&__input{
+	&__input {
 		padding: 1em 2em;
 		margin-bottom: 2em;
 		width: 100%;
@@ -374,41 +374,91 @@ body {
 		border-radius: 8px;
 		border-bottom: 2px solid $first-color;
 		color: $white;
-
 	}
 
-	&__input::placeholder{
+	&__input::placeholder {
 		text-transform: uppercase;
 	}
-	&__text-area{
+	&__text-area {
 		min-width: 100%;
 		max-width: 500px;
 		width: 100%;
 		min-height: 300px;
 		max-height: 300px;
 	}
-&__text{
-	text-align: center;
-	padding: 1em
-}
-&__text-header{
-	margin-bottom: 1em;
-	margin-top: 2em;
-	text-transform: uppercase;
-	color: $white
-}
-&__text-p{
-	margin-bottom: 1em;
-	font-size: 1.3rem;
-	color: $white
-}
+	&__text {
+		text-align: center;
+		padding: 1em;
+	}
+	&__text-header {
+		margin-bottom: 1em;
+		margin-top: 2em;
+		text-transform: uppercase;
+		color: $white;
+	}
+	&__text-p {
+		margin-bottom: 1em;
+		font-size: 1.3rem;
+		color: $white;
+	}
 }
 
 // FOOTER
 
-.footer{
+.footer {
 	background-color: $dark;
-	color: $white
+	color: $white;
+
+	&__boxes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__box{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 1em;
+	}
+	&__logo {
+		width: 25%;
+		margin-bottom: .5em;
+	}
+	&__text{
+		padding: .3em;
+		font-size: 1rem;
+	}
+&__social{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+&__social-img{
+	width: 35%;
+}
+&__bottom-text{
+	text-align: center;
+	padding: 1em
+}
+&__author{
+	margin-top: 0;
+	padding: 0 1em 1em;
+	font-size: 1rem;
+	text-align: center;
+
+	a{
+		
+		color: #6FDFDF;
+		text-decoration: none;
+		cursor: pointer;
+
+	}
+}
 }
 
 // MEDIA QUERIES

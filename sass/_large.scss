@@ -136,4 +136,10 @@
 			margin-top: 0;
 		}
 	}
+
+	.footer{
+		&__boxes{
+			flex-direction: row;
+		}
+	}
 }
