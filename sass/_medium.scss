@@ -35,4 +35,12 @@
             font-size: 1.4rem;
         }
     }
-}
+
+    .menu {
+        &__card {
+            margin: 2em 6em;
+        }
+        &__card-button{
+            font-size: 1.2rem;
+        }
+}}

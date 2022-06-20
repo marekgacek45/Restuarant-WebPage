@@ -165,7 +165,7 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: 1em;
+		margin: 2em;
 		padding: 3em 2em;
 		border: 3px solid transparent;
 		box-shadow: 5px 5px 15px black inset;
@@ -173,24 +173,20 @@ body {
 		color: $white;
 	}
 
-	&__card-heading {
-		font-size: 2rem;
-		margin-bottom: 1.5em;
-		text-transform: uppercase;
-		color: $first-color;
-	}
 	&__card-img {
-		width: 30%;
-		margin-bottom: 1.5em;
+		width: 40%;
+		margin-bottom: 1em;
 	}
 	&__card-title {
-		font-size: 1.2rem;
-		margin-bottom: 1.5em;
+		font-size: 1rem;
+		margin-bottom: 1em;
 		text-transform: uppercase;
+		text-align: center;
 	}
 	&__card-text {
 		font-size: 1rem;
 		margin-bottom: 2em;
+		text-align: center;
 	}
 	&__card-button {
 		padding: 1em 2em;
@@ -198,6 +194,7 @@ body {
 		text-transform: uppercase;
 		font-weight: bold;
 		border-radius: 8px;
+		box-shadow: 5px 5px 10px black;
 		color: $white;
 		transition: background-color 0.3s, transform 0.3s;
 		cursor: pointer;

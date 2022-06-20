@@ -2,7 +2,7 @@
 	.hamburger {
 		display: none;
 	}
-//COMPONENTS
+	//COMPONENTS
 	.hero-img {
 		&__heading {
 			font-size: 6rem;
@@ -12,11 +12,10 @@
 			font-size: 1.5rem;
 		}
 	}
-	.section-title{
+	.section-title {
 		font-size: 3rem;
-
 	}
-	.section-header{
+	.section-header {
 		font-size: 5rem;
 	}
 
@@ -69,10 +68,28 @@
 	}
 
 	.menu {
-		margin: 2em;
 		&__cards {
 			display: flex;
+			flex-direction: row;
 			justify-content: space-between;
+		}
+		&__card {
+			margin: 1em;
+			padding: 1em;
+		}
+		&__card-img {
+			width: 25%;
+			margin-bottom: 1.5em;
+		}
+		&__card-title {
+			font-size: 1rem;
+		}
+		&__card-text {
+			font-size: 1rem;
+		}
+		&__card-button {
+			padding: 1em 2em;
+			font-size: 1rem;
 		}
 	}
 
@@ -159,8 +176,27 @@
 			margin-left: 0.3em;
 			font-size: 5rem;
 		}
-		&__links-li{
-            font-size: 2.4rem;
-        }
+		&__links-li {
+			font-size: 2.4rem;
+		}
 	}
+	.menu {
+		&__card {
+			margin: 1em;
+			padding: 2em;	
+		}
+		&__card-img {
+			width: 35%;
+			margin-bottom: 1.5em;
+		}
+		&__card-title {
+			font-size: 1.4rem;
+		}
+		&__card-text {
+			font-size: 1rem;
+		}
+		&__card-button {
+			padding: 1em 2em;
+			font-size: 1rem;
+		}}
 }
