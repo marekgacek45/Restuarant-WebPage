@@ -1,0 +1,21 @@
+@media (min-width: 375px){
+    .nav{
+        &__box-logo {
+            margin-left: 1em;
+        }
+        &__box-header{
+            font-size: 4.0rem;
+        }
+    }
+}
+
+@media (min-width: 576px){
+    .nav{
+        &__box-logo {
+            margin-left: 1.3em;
+        }
+        &__box-header{
+            font-size: 4.3rem;
+        }
+    }
+}

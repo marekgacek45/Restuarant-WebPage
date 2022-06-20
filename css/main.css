@@ -132,14 +132,16 @@ body {
 
 .nav__box-logo {
   left: 0;
-  width: 3em;
-  margin-left: 1em;
+  width: 2.7em;
+  margin-left: 0.5em;
 }
 
 .nav__box-header {
-  font-size: 3rem;
-  margin-left: 0.5em;
+  font-size: 3.3rem;
+  margin-left: 0.2em;
   color: #fff;
+  font-family: 'Rancho', cursive;
+  letter-spacing: 3px;
 }
 
 .nav__links {
@@ -163,6 +165,7 @@ body {
   text-align: center;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
+  font-size: 1.6rem;
 }
 
 .nav__links-li:hover {
@@ -525,6 +528,37 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 375px) {
+  .nav__box-logo {
+    margin-left: 1em;
+  }
+  .nav__box-header {
+    font-size: 4.0rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .nav__box-logo {
+    margin-left: 1.3em;
+  }
+  .nav__box-header {
+    font-size: 4.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav__box-logo {
+    width: 3.2em;
+  }
+  .nav__box-header {
+    margin-left: 0.3em;
+    font-size: 4.7rem;
+  }
+  .nav__links-li {
+    font-size: 2rem;
+  }
+}
+
 @media (min-width: 992px) {
   .hamburger {
     display: none;
@@ -557,6 +591,9 @@ body {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+  .nav__links-li {
+    font-size: 2.3rem;
   }
   .header {
     background-image: url(../img/header-big.jpg);

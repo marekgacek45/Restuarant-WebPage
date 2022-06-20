@@ -1,0 +1,14 @@
+@media (min-width: 768px){
+    .nav{
+        &__box-logo {
+            width: 3.2em;;
+        }
+        &__box-header{
+            margin-left: 0.3em;
+            font-size: 4.7rem;
+        }
+        &__links-li{
+            font-size: 2rem;
+        }
+    }
+}
