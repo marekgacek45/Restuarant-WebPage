@@ -57,10 +57,7 @@
   text-transform: uppercase;
   color: #ed5440;
   font-family: 'Chango', cursive;
-  font-size: 2.2rem;
-  opacity: 0;
-  -webkit-animation: show 5s 1s linear forwards;
-          animation: show 5s 1s linear forwards;
+  font-size: 2rem;
 }
 
 .hero-img__text {
@@ -68,17 +65,22 @@
   text-align: center;
   color: #fff;
   font-size: 1rem;
-  opacity: 0;
-  -webkit-animation: show 5s 3s linear forwards;
-          animation: show 5s 3s linear forwards;
 }
 
-.header-section {
-  font-size: 2.4rem;
-  margin: 1em;
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
   color: #ed5440;
+  font-family: 'Rancho', cursive;
+}
+
+.section-header {
+  font-size: 2.4rem;
+  margin-top: 1em;
+  margin-bottom: .5;
+  font-family: 'Chango', cursive;
 }
 
 *,
@@ -237,8 +239,9 @@ body {
 }
 
 .about__box-img img {
-  padding: 1em;
   width: 100%;
+  padding: 0 1em;
+  margin: 1em 0;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -254,17 +257,9 @@ body {
   padding: 0 1em;
 }
 
-.about__title {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  margin-bottom: 1em;
-  color: #ed5440;
-}
-
 .about__text {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -557,6 +552,9 @@ body {
   .hero-img__heading {
     font-size: 2.5rem;
   }
+  .section-header {
+    font-size: 2.7rem;
+  }
   .nav__box-logo {
     margin-left: 1em;
   }
@@ -569,11 +567,20 @@ body {
   .hero-img__heading {
     font-size: 4rem;
   }
+  .section-title {
+    font-size: 3rem;
+  }
+  .section-header {
+    font-size: 3.5rem;
+  }
   .nav__box-logo {
     margin-left: 1.3em;
   }
   .nav__box-header {
     font-size: 4.3rem;
+  }
+  .about__text {
+    font-size: 1.1rem;
   }
 }
 
@@ -584,6 +591,12 @@ body {
   .hero-img__text {
     font-size: 1.2rem;
   }
+  .section-title {
+    font-size: 3.2rem;
+  }
+  .section-header {
+    font-size: 4.2rem;
+  }
   .nav__box-logo {
     width: 3em;
   }
@@ -593,6 +606,9 @@ body {
   }
   .nav__links-li {
     font-size: 2rem;
+  }
+  .about__text {
+    font-size: 1.4rem;
   }
 }
 
@@ -606,6 +622,12 @@ body {
   }
   .hero-img__text {
     font-size: 1.5rem;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
+  .section-header {
+    font-size: 5rem;
   }
   .nav__container {
     display: -webkit-box;
@@ -661,9 +683,6 @@ body {
   }
   .about__box-text--right {
     text-align: right;
-  }
-  .about__title {
-    font-size: 2rem;
   }
   .header-second {
     height: 80vh;

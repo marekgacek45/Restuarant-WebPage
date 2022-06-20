@@ -2,7 +2,7 @@
 	.hamburger {
 		display: none;
 	}
-
+//COMPONENTS
 	.hero-img {
 		&__heading {
 			font-size: 6rem;
@@ -11,6 +11,13 @@
 		&__text {
 			font-size: 1.5rem;
 		}
+	}
+	.section-title{
+		font-size: 3rem;
+
+	}
+	.section-header{
+		font-size: 5rem;
 	}
 
 	.nav {
@@ -53,9 +60,6 @@
 			&--right {
 				text-align: right;
 			}
-		}
-		&__title {
-			font-size: 2rem;
 		}
 	}
 

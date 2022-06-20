@@ -1,4 +1,5 @@
 @media (min-width: 768px){
+    //COMPONENTS
     .hero-img{
         &__heading{
             font-size: 5rem;
@@ -6,6 +7,14 @@
         &__text{
             font-size: 1.2rem;
         }
+    }
+
+    .section-title{
+        font-size: 3.2rem;
+
+    }
+    .section-header{
+        font-size: 4.2rem;
     }
 
     .nav{
@@ -18,6 +27,12 @@
         }
         &__links-li{
             font-size: 2rem;
+        }
+    }
+
+    .about{
+        &__text{
+            font-size: 1.4rem;
         }
     }
 }

@@ -128,17 +128,12 @@ body {
 		align-items: center;
 		margin: 2em 0;
 	}
-
-	// &__heading {
-	// 	text-transform: uppercase;
-	// 	font-size: 3rem;
-	// 	color: $first-color;
-	// }
 	&__box-img {
-		// overflow: hidden;
+
 		img {
-			padding: 1em;
 			width: 100%;
+			padding: 0 1em;
+			margin: 1em 0;
 			transition: transform 0.3s;
 		}
 		img:hover {
@@ -149,17 +144,9 @@ body {
 	&__box-text {
 		padding: 0 1em;
 	}
-
-	&__title {
-		text-align: center;
-		text-transform: uppercase;
-		font-size: 1.5rem;
-		margin-bottom: 1em;
-		color: $first-color;
-	}
 	&__text {
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		color: $white;
 	}
 }
