@@ -31,11 +31,12 @@
 		text-transform: uppercase;
 		color: $first-color;
         font-family: 'Chango', cursive;
+        font-size: 2.2rem;
 
 		
 	}
 	&__text {
-		padding: 2em;
+		padding: 0 1em;;
 		text-align: center;
 		color: $white;
 		font-size: 1rem;

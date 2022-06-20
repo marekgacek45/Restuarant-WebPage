@@ -3,6 +3,16 @@
 		display: none;
 	}
 
+	.hero-img{
+        &__heading{
+            font-size: 7rem;
+			letter-spacing: 15px;
+        }
+        &__text{
+            font-size: 1.5rem;
+        }
+    }
+
 	.nav {
 		&__container {
 			display: flex;
@@ -26,12 +36,7 @@
 
 	.header {
 		background-image: url(../img/header-big.jpg);
-		&__heading {
-			font-size: 5rem;
-		}
-		&__text {
-			font-size: 1.5rem;
-		}
+	
 	}
 
 	.about {
@@ -55,14 +60,9 @@
 		}
 	}
 
-	.hero-img {
+	.header-second {
+		height: 80vh;
 		background-image: url(../img/hero-img-big.jpg);
-		&__heading {
-			font-size: 5rem;
-		}
-		&__text {
-			font-size: 1.5rem;
-		}
 	}
 
 	.menu {
@@ -90,15 +90,10 @@
 			}
 		}
 	}
-	.hero-img2 {
-		background-image: url(../img/hero-img2-big.jpg);
-		&__heading {
-			font-size: 5rem;
-		}
-		&__text {
-			font-size: 1.5rem;
-		}
-	}
+	// HEADER-THIRD
+.header-third {
+	background-image: url(../img/hero-img2-big.jpg)
+}
 
 	.gallery {
 		&__img {

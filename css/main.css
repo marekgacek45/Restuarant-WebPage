@@ -39,10 +39,11 @@
   text-transform: uppercase;
   color: #ed5440;
   font-family: 'Chango', cursive;
+  font-size: 2.2rem;
 }
 
 .hero-img__text {
-  padding: 2em;
+  padding: 0 1em;
   text-align: center;
   color: #fff;
   font-size: 1rem;
@@ -529,6 +530,9 @@ body {
 }
 
 @media (min-width: 375px) {
+  .hero-img__heading {
+    font-size: 2.5rem;
+  }
   .nav__box-logo {
     margin-left: 1em;
   }
@@ -538,6 +542,9 @@ body {
 }
 
 @media (min-width: 576px) {
+  .hero-img__heading {
+    font-size: 4rem;
+  }
   .nav__box-logo {
     margin-left: 1.3em;
   }
@@ -547,6 +554,12 @@ body {
 }
 
 @media (min-width: 768px) {
+  .hero-img__heading {
+    font-size: 5rem;
+  }
+  .hero-img__text {
+    font-size: 1.2rem;
+  }
   .nav__box-logo {
     width: 3.2em;
   }
@@ -562,6 +575,13 @@ body {
 @media (min-width: 992px) {
   .hamburger {
     display: none;
+  }
+  .hero-img__heading {
+    font-size: 7rem;
+    letter-spacing: 15px;
+  }
+  .hero-img__text {
+    font-size: 1.5rem;
   }
   .nav__container {
     display: -webkit-box;
@@ -598,12 +618,6 @@ body {
   .header {
     background-image: url(../img/header-big.jpg);
   }
-  .header__heading {
-    font-size: 5rem;
-  }
-  .header__text {
-    font-size: 1.5rem;
-  }
   .about__box {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -627,14 +641,9 @@ body {
   .about__title {
     font-size: 2rem;
   }
-  .hero-img {
+  .header-second {
+    height: 80vh;
     background-image: url(../img/hero-img-big.jpg);
-  }
-  .hero-img__heading {
-    font-size: 5rem;
-  }
-  .hero-img__text {
-    font-size: 1.5rem;
   }
   .menu {
     margin: 2em;
@@ -662,14 +671,8 @@ body {
   .reviews__text--mini {
     font-size: 1rem;
   }
-  .hero-img2 {
+  .header-third {
     background-image: url(../img/hero-img2-big.jpg);
-  }
-  .hero-img2__heading {
-    font-size: 5rem;
-  }
-  .hero-img2__text {
-    font-size: 1.5rem;
   }
   .gallery__img {
     margin: 1em;
