@@ -94,10 +94,10 @@
 	}
 
 	.reviews {
-		&__box{
-		margin: 2em;
+		&__box {
+			margin: 2em;
 			padding: 3em 2em;
-	}
+		}
 		&__text {
 			font-size: 1.5rem;
 			&--strong {
@@ -115,7 +115,7 @@
 
 	.gallery {
 		&__img {
-			margin: 1em;
+			margin: 0.5em;
 		}
 	}
 
@@ -181,7 +181,7 @@
 	.menu {
 		&__card {
 			margin: 1em;
-			padding: 2em;	
+			padding: 2em;
 		}
 		&__card-img {
 			width: 35%;
@@ -196,12 +196,18 @@
 		&__card-button {
 			padding: 1em 2em;
 			font-size: 1rem;
-		}}
-		
-		.reviews {
-			&__box{
-			margin: 2em;
-				padding:  3em 4em;
 		}
+	}
 
-}}
+	.reviews {
+		&__box {
+			margin: 2em;
+			padding: 3em 4em;
+		}
+	}
+	.gallery {
+		&__img {
+			margin: 1em;
+		}
+	}
+}

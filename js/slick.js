@@ -27,7 +27,7 @@ $(document).ready(function () {
         arrows: false,
         mobileFirst: true,
         responsive: [{
-            breakpoint: 700,
+            breakpoint: 1050,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1

@@ -362,12 +362,7 @@ body {
 }
 
 .gallery {
-  margin: 1em;
-  padding: 1em 0.5em;
-}
-
-.gallery__img {
-  width: 150px;
+  margin: .5em;
 }
 
 .contact__box {
@@ -611,6 +606,10 @@ body {
   .reviews__text--mini {
     font-size: 0.8rem;
   }
+  .gallery__box {
+    margin: 1em;
+    padding: .5em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -649,6 +648,7 @@ body {
     margin: 1em;
     margin-bottom: 2em;
     padding: 2em 1em;
+    width: 50%;
   }
 }
 
@@ -775,7 +775,7 @@ body {
     background-image: url(../img/hero-img2-big.jpg);
   }
   .gallery__img {
-    margin: 1em;
+    margin: 0.5em;
   }
   .contact__box {
     display: -webkit-box;
@@ -873,6 +873,9 @@ body {
   .reviews__box {
     margin: 2em;
     padding: 3em 4em;
+  }
+  .gallery__img {
+    margin: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
