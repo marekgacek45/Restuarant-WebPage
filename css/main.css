@@ -282,8 +282,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2em;
-  padding: 3em 2em;
+  margin: .5em;
+  padding: 2em 1em;
   border: 3px solid transparent;
   -webkit-box-shadow: 5px 5px 15px black inset;
           box-shadow: 5px 5px 15px black inset;
@@ -331,24 +331,17 @@ body {
           transform: scale(1.1);
 }
 
-.reviews__heading {
-  margin-top: 2em;
-  color: #ed5440;
-  text-transform: uppercase;
-  font-size: 1.7rem;
-  text-align: center;
-}
-
 .reviews__box {
-  margin: 2em;
+  margin: .5em;
+  margin-bottom: 2em;
   padding: 1em;
   color: #fff;
-  -webkit-box-shadow: 3px 3px 10px #333 inset;
-          box-shadow: 3px 3px 10px #333 inset;
+  -webkit-box-shadow: 5px 5px 15px #222 inset;
+          box-shadow: 5px 5px 15px #222 inset;
 }
 
 .reviews__text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 1.5em;
   text-align: center;
 }
@@ -360,7 +353,7 @@ body {
 }
 
 .reviews__text--mini {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .header-third {
@@ -556,13 +549,16 @@ body {
     margin-left: 1em;
   }
   .nav__box-header {
-    font-size: 4.0rem;
+    font-size: 4rem;
   }
   .menu__card-img {
     width: 35%;
   }
   .menu__card-title {
     font-size: 1.2rem;
+  }
+  .reviews__box {
+    margin: 1.5em;
   }
 }
 
@@ -601,6 +597,20 @@ body {
   .menu__card-button {
     padding: 1.5em 3em;
   }
+  .reviews__box {
+    margin: 1em;
+    margin-bottom: 2em;
+    padding: 2em 1em;
+  }
+  .reviews__text {
+    font-size: 1.2rem;
+  }
+  .reviews__text--strong {
+    font-size: 1.5rem;
+  }
+  .reviews__text--mini {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -634,6 +644,11 @@ body {
   }
   .menu__card-button {
     font-size: 1.2rem;
+  }
+  .reviews__box {
+    margin: 1em;
+    margin-bottom: 2em;
+    padding: 2em 1em;
   }
 }
 
@@ -743,11 +758,9 @@ body {
     padding: 1em 2em;
     font-size: 1rem;
   }
-  .reviews__heading {
-    font-size: 3rem;
-  }
   .reviews__box {
-    padding: 4em;
+    margin: 2em;
+    padding: 3em 2em;
   }
   .reviews__text {
     font-size: 1.5rem;
@@ -856,6 +869,10 @@ body {
   .menu__card-button {
     padding: 1em 2em;
     font-size: 1rem;
+  }
+  .reviews__box {
+    margin: 2em;
+    padding: 3em 4em;
   }
 }
 /*# sourceMappingURL=main.css.map */

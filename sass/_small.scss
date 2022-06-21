@@ -1,82 +1,99 @@
-@media (min-width: 375px){
-    //COMPONENTS
-    .hero-img{
-        &__heading{
-            font-size: 2.5rem;
-        }
-    }
+@media (min-width: 375px) {
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 2.5rem;
+		}
+	}
 
-    .section-header{
-        font-size: 2.7rem;
-    }
+	.section-header {
+		font-size: 2.7rem;
+	}
 
+	.nav {
+		&__box-logo {
+			margin-left: 1em;
+		}
+		&__box-header {
+			font-size: 4rem;
+		}
+	}
 
-    .nav{
-        &__box-logo {
-            margin-left: 1em;
-        }
-        &__box-header{
-            font-size: 4.0rem;
-        }
-    }
-
-    .menu{
-        &__card-img {
-            width: 35%;
-        }
-        &__card-title {
-            font-size: 1.2rem;
-            
-        }
-    }
-
+	.menu {
+		&__card-img {
+			width: 35%;
+		}
+		&__card-title {
+			font-size: 1.2rem;
+		}
+	}
+	.reviews {
+		&__box {
+			margin: 1.5em;
+		}
+	}
 }
 
-@media (min-width: 576px){
-    //COMPONENTS
-    .hero-img{
-        &__heading{
-            font-size: 4rem;
-        }
-    }
-    .section-title{
-        font-size: 3rem;
+@media (min-width: 576px) {
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 4rem;
+		}
+	}
+	.section-title {
+		font-size: 3rem;
+	}
+	.section-header {
+		font-size: 3.5rem;
+	}
 
-    }
-    .section-header{
-        font-size: 3.5rem;
-    }
+	.nav {
+		&__box-logo {
+			margin-left: 1.3em;
+		}
+		&__box-header {
+			font-size: 4.3rem;
+		}
+	}
+	.about {
+		&__text {
+			font-size: 1.1rem;
+		}
+	}
+	.menu {
+		&__card {
+			margin: 1em 3em;
+		}
+		&__card-img {
+			width: 20%;
+			margin-bottom: 1.5em;
+		}
+		&__card-title {
+			font-size: 1.4rem;
+		}
+		&__card-text {
+			font-size: 1.2rem;
+		}
+		&__card-button {
+			padding: 1.5em 3em;
+		}
+	}
 
-
-    .nav{
-        &__box-logo {
-            margin-left: 1.3em;
-        }
-        &__box-header{
-            font-size: 4.3rem;
-        }
-    }
-    .about{
-        &__text{
-            font-size: 1.1rem;
-        }
-    }
-    .menu{
-        &__card {
-            margin: 1em 3em;
-        }
-        &__card-img {
-            width: 20%;
-            margin-bottom: 1.5em;
+	.reviews {
+		&__box {
+			margin: 1em;
+			margin-bottom: 2em;
+			padding: 2em 1em;
+		}
+		&__text {
+			font-size: 1.2rem;
+			&--strong {
+				font-size: 1.5rem;
+			}
+			&--mini {
+				font-size: 0.8rem;
+			}
+		}
 	}
-	&__card-title {
-		font-size: 1.4rem;
-	}
-	&__card-text {
-		font-size: 1.2rem;
-	}
-	&__card-button {
-		padding: 1.5em 3em;
-	}
-        }
 }

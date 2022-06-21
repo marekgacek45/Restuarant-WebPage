@@ -1,46 +1,54 @@
-@media (min-width: 768px){
-    //COMPONENTS
-    .hero-img{
-        &__heading{
-            font-size: 5rem;
-        }
-        &__text{
-            font-size: 1.2rem;
-        }
-    }
+@media (min-width: 768px) {
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 5rem;
+		}
+		&__text {
+			font-size: 1.2rem;
+		}
+	}
 
-    .section-title{
-        font-size: 3.2rem;
+	.section-title {
+		font-size: 3.2rem;
+	}
+	.section-header {
+		font-size: 4.2rem;
+	}
 
-    }
-    .section-header{
-        font-size: 4.2rem;
-    }
+	.nav {
+		&__box-logo {
+			width: 3em;
+		}
+		&__box-header {
+			margin-left: 0.3em;
+			font-size: 4rem;
+		}
+		&__links-li {
+			font-size: 2rem;
+		}
+	}
 
-    .nav{
-        &__box-logo {
-            width: 3em;;
-        }
-        &__box-header{
-            margin-left: 0.3em;
-            font-size: 4rem;
-        }
-        &__links-li{
-            font-size: 2rem;
-        }
-    }
+	.about {
+		&__text {
+			font-size: 1.4rem;
+		}
+	}
 
-    .about{
-        &__text{
-            font-size: 1.4rem;
-        }
-    }
+	.menu {
+		&__card {
+			margin: 2em 6em;
+		}
+		&__card-button {
+			font-size: 1.2rem;
+		}
+	}
+	.reviews {
+		&__box {
+			margin: 1em;
+			margin-bottom: 2em;
+			padding: 2em 1em;
+		}
+		}
+	}
 
-    .menu {
-        &__card {
-            margin: 2em 6em;
-        }
-        &__card-button{
-            font-size: 1.2rem;
-        }
-}}

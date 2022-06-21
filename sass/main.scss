@@ -165,8 +165,8 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: 2em;
-		padding: 3em 2em;
+		margin: .5em;
+		padding: 2em 1em;
 		border: 3px solid transparent;
 		box-shadow: 5px 5px 15px black inset;
 		border-radius: 8px;
@@ -207,21 +207,16 @@ body {
 
 // REVIEWS
 .reviews {
-	&__heading {
-		margin-top: 2em;
-		color: $first-color;
-		text-transform: uppercase;
-		font-size: 1.7rem;
-		text-align: center;
-	}
 	&__box {
-		margin: 2em;
+		margin: .5em ;
+		margin-bottom: 2em;
 		padding: 1em;
 		color: $white;
-		box-shadow: 3px 3px 10px #333 inset;
+		box-shadow: 5px 5px 15px #222 inset;
+
 	}
 	&__text {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		margin-bottom: 1.5em;
 		text-align: center;
 		&--strong {
@@ -230,7 +225,7 @@ body {
 			font-size: 1.4rem;
 		}
 		&--mini {
-			font-size: 0.8rem;
+			font-size: 0.7rem;
 		}
 	}
 }
