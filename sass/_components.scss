@@ -1,11 +1,9 @@
-.wrapper{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    z-index: 10;
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	z-index: 10;
 }
-
-
 
 .hero-img {
 	display: flex;
@@ -26,29 +24,27 @@
 		z-index: 0;
 	}
 	&__heading {
-		padding:.5em;
+		padding: 0.5em;
 		text-align: center;
 		text-transform: uppercase;
 		color: $first-color;
-        font-family: 'Chango', cursive;
-        font-size: 2rem;
-        // opacity: 0;
-        // animation: show 5s 1s linear forwards;
-
-		
+		font-family: 'Chango', cursive;
+		font-size: 2rem;
+		// opacity: 0;
+		// animation: show 5s 1s linear forwards;
 	}
 	&__text {
-		padding: 0 1em;;
+		padding: 0 1em;
 		text-align: center;
 		color: $white;
 		font-size: 1rem;
-        // opacity:0;
-        // animation: show 5s 3s linear forwards;
+		// opacity:0;
+		// animation: show 5s 3s linear forwards;
 	}
 }
 
-.section-title{
-    font-size: 2rem;
+.section-title {
+	font-size: 2rem;
 	margin-bottom: 1em;
 	text-align: center;
 	text-transform: uppercase;
@@ -56,9 +52,25 @@
 	font-family: 'Rancho', cursive;
 }
 
-.section-header{
+.section-header {
 	font-size: 2.2rem;
 	margin-top: 1em;
-	margin-bottom: .5;
+	margin-bottom: 0.5;
 	font-family: 'Chango', cursive;
+}
+
+.button {
+	padding: 1em 2em;
+	background: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px black;
+	color: $white;
+	transition: background-color 0.3s, transform 0.3s;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: $first-color;
+	transform: scale(1.1);
 }

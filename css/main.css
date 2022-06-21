@@ -52,7 +52,7 @@
 }
 
 .hero-img__heading {
-  padding: .5em;
+  padding: 0.5em;
   text-align: center;
   text-transform: uppercase;
   color: #ed5440;
@@ -79,8 +79,30 @@
 .section-header {
   font-size: 2.2rem;
   margin-top: 1em;
-  margin-bottom: .5;
+  margin-bottom: 0.5;
   font-family: 'Chango', cursive;
+}
+
+.button {
+  padding: 1em 2em;
+  background: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+  color: #fff;
+  -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
+  transition: background-color 0.3s, -webkit-transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ed5440;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 *,
@@ -282,7 +304,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: .5em;
+  margin: 0.5em;
   padding: 2em 1em;
   border: 3px solid transparent;
   -webkit-box-shadow: 5px 5px 15px black inset;
@@ -309,30 +331,8 @@ body {
   text-align: center;
 }
 
-.menu__card-button {
-  padding: 1em 2em;
-  background: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 8px;
-  -webkit-box-shadow: 5px 5px 10px black;
-          box-shadow: 5px 5px 10px black;
-  color: #fff;
-  -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
-  transition: background-color 0.3s, -webkit-transform 0.3s;
-  transition: background-color 0.3s, transform 0.3s;
-  transition: background-color 0.3s, transform 0.3s, -webkit-transform 0.3s;
-  cursor: pointer;
-}
-
-.menu__card-button:hover {
-  background-color: #ed5440;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .reviews__box {
-  margin: .5em;
+  margin: 0.5em;
   margin-bottom: 2em;
   padding: 1em;
   color: #fff;
@@ -361,8 +361,12 @@ body {
   background-image: url(../img/hero-img2-mini.jpg);
 }
 
-.gallery {
-  margin: .5em;
+.gallery__box {
+  margin: 0.5em;
+}
+
+.contact__header {
+  font-size: 1.8rem;
 }
 
 .contact__box {
@@ -396,6 +400,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 1em 2em;
+  width: 100%;
 }
 
 .contact__input {
@@ -410,26 +415,30 @@ body {
 
 .contact__input::-webkit-input-placeholder {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .contact__input:-ms-input-placeholder {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .contact__input::-ms-input-placeholder {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .contact__input::placeholder {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .contact__text-area {
   min-width: 100%;
-  max-width: 500px;
+  max-width: 300px;
   width: 100%;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 150px;
+  max-height: 150px;
 }
 
 .contact__text {
@@ -490,11 +499,11 @@ body {
 
 .footer__logo {
   width: 25%;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .footer__text {
-  padding: .3em;
+  padding: 0.3em;
   font-size: 1rem;
 }
 
@@ -528,7 +537,7 @@ body {
 }
 
 .footer__author a {
-  color: #6FDFDF;
+  color: #6fdfdf;
   text-decoration: none;
   cursor: pointer;
 }
@@ -554,6 +563,12 @@ body {
   }
   .reviews__box {
     margin: 1.5em;
+  }
+  .contact__header {
+    font-size: 2.3rem;
+  }
+  .contact__form {
+    padding: 1em;
   }
 }
 
@@ -649,6 +664,34 @@ body {
     margin-bottom: 2em;
     padding: 2em 1em;
     width: 50%;
+  }
+  .contact__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contact__input {
+    width: 45%;
+    margin: 1em;
+    padding: 1em 2em;
+  }
+  .contact__text-area {
+    min-width: 100%;
+    max-width: 300px;
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+  }
+  .contact__button {
+    padding: 1.5em 3em;
+    margin-top: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -791,6 +834,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 3em;
   }
   .contact__form {
     display: -webkit-box;
@@ -805,8 +849,8 @@ body {
   }
   .contact__input {
     width: 40%;
-    margin: 2em 3em;
-    padding: 1em 2em;
+    margin: 2em;
+    padding: 1em;
   }
   .contact__text {
     display: -webkit-box;
@@ -829,6 +873,9 @@ body {
   }
   .contact__text-header:first-child {
     margin-top: 0;
+  }
+  .contact__button {
+    margin-top: 0.5em;
   }
   .footer__boxes {
     -webkit-box-orient: horizontal;

@@ -114,7 +114,6 @@ body {
 .header {
 	height: 100vh;
 	background-image: url(../img/header-mini.jpg);
-
 }
 
 //ABOUT US
@@ -129,7 +128,6 @@ body {
 		margin: 2em 0;
 	}
 	&__box-img {
-
 		img {
 			width: 100%;
 			padding: 0 1em;
@@ -155,7 +153,6 @@ body {
 .header-second {
 	height: 90vh;
 	background-image: url(../img/hero-img-mini.jpg);
-	
 }
 
 // MENU
@@ -165,7 +162,7 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: .5em;
+		margin: 0.5em;
 		padding: 2em 1em;
 		border: 3px solid transparent;
 		box-shadow: 5px 5px 15px black inset;
@@ -188,32 +185,16 @@ body {
 		margin-bottom: 2em;
 		text-align: center;
 	}
-	&__card-button {
-		padding: 1em 2em;
-		background: none;
-		text-transform: uppercase;
-		font-weight: bold;
-		border-radius: 8px;
-		box-shadow: 5px 5px 10px black;
-		color: $white;
-		transition: background-color 0.3s, transform 0.3s;
-		cursor: pointer;
-	}
-	&__card-button:hover {
-		background-color: $first-color;
-		transform: scale(1.1);
-	}
 }
 
 // REVIEWS
 .reviews {
 	&__box {
-		margin: .5em ;
+		margin: 0.5em;
 		margin-bottom: 2em;
 		padding: 1em;
 		color: $white;
 		box-shadow: 5px 5px 15px #222 inset;
-
 	}
 	&__text {
 		font-size: 1rem;
@@ -233,18 +214,22 @@ body {
 // HEADER-THIRD
 .header-third {
 	height: 90vh;
-	background-image: url(../img/hero-img2-mini.jpg)
+	background-image: url(../img/hero-img2-mini.jpg);
 }
 
 //GALLERY
 .gallery {
-	margin: .5em;
+	&__box {
+		margin: 0.5em;
+	}
 }
 
 // CONTACT
 
 .contact {
-	// height: 75vh;
+	&__header {
+		font-size: 1.8rem;
+	}
 	&__box {
 		display: flex;
 		flex-direction: column;
@@ -257,6 +242,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		padding: 1em 2em;
+		width: 100%;
 	}
 	&__input {
 		padding: 1em 2em;
@@ -270,13 +256,14 @@ body {
 
 	&__input::placeholder {
 		text-transform: uppercase;
+		text-align: center;
 	}
 	&__text-area {
 		min-width: 100%;
-		max-width: 500px;
+		max-width: 300px;
 		width: 100%;
-		min-height: 300px;
-		max-height: 300px;
+		min-height: 150px;
+		max-height: 150px;
 	}
 	&__text {
 		text-align: center;
@@ -308,7 +295,7 @@ body {
 		align-items: center;
 	}
 
-	&__box{
+	&__box {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -317,40 +304,38 @@ body {
 	}
 	&__logo {
 		width: 25%;
-		margin-bottom: .5em;
+		margin-bottom: 0.5em;
 	}
-	&__text{
-		padding: .3em;
+	&__text {
+		padding: 0.3em;
 		font-size: 1rem;
 	}
-&__social{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 0.5em;
-	margin-bottom: 0.5em;
-}
-&__social-img{
-	width: 35%;
-}
-&__bottom-text{
-	text-align: center;
-	padding: 1em
-}
-&__author{
-	margin-top: 0;
-	padding: 0 1em 1em;
-	font-size: 1rem;
-	text-align: center;
-
-	a{
-		
-		color: #6FDFDF;
-		text-decoration: none;
-		cursor: pointer;
-
+	&__social {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0.5em;
+		margin-bottom: 0.5em;
 	}
-}
+	&__social-img {
+		width: 35%;
+	}
+	&__bottom-text {
+		text-align: center;
+		padding: 1em;
+	}
+	&__author {
+		margin-top: 0;
+		padding: 0 1em 1em;
+		font-size: 1rem;
+		text-align: center;
+
+		a {
+			color: #6fdfdf;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
 }
 
 // MEDIA QUERIES
