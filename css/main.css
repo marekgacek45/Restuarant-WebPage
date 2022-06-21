@@ -542,6 +542,10 @@ body {
   cursor: pointer;
 }
 
+.footer__author img {
+  width: 35px;
+}
+
 @media (min-width: 375px) {
   .hero-img__heading {
     font-size: 2.5rem;
