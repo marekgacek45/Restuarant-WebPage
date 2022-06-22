@@ -21,6 +21,8 @@ body {
 	background-color: $second-color;
 }
 
+
+
 // HAMBURGER
 
 .hamburger {
@@ -48,7 +50,6 @@ body {
 	background-color: $first-color;
 	width: 100%;
 	z-index: 10000;
-
 	&__container {
 		display: flex;
 		flex-direction: column;
@@ -56,19 +57,16 @@ body {
 		justify-content: space-between;
 		color: white;
 	}
-
 	&__box {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-
 	&__box-logo {
 		left: 0;
 		width: 2.7em;
 		margin-left: 0.5em;
 	}
-
 	&__box-header {
 		font-size: 3.3rem;
 		margin-left: 0.2em;
@@ -76,7 +74,6 @@ body {
 		font-family: 'Rancho', cursive;
 		letter-spacing: 3px;
 	}
-
 	&__links {
 		display: none;
 		width: 100%;
@@ -92,11 +89,9 @@ body {
 		transition: background-color 0.5s;
 		font-size: 1.6rem;
 	}
-
 	&__links-li:hover {
 		background-color: $first-color-darker;
 	}
-
 	&__links-a {
 		display: block;
 		padding: 0.5em;
@@ -104,20 +99,15 @@ body {
 		color: white;
 	}
 }
-
 .active {
 	display: flex;
 }
-
 //HEADER
-
 .header {
 	height: 100vh;
 	background-image: url(../img/header-mini.jpg);
 }
-
 //ABOUT US
-
 .about {
 	background-color: $second-color;
 	&__box {
@@ -138,7 +128,6 @@ body {
 			transform: scale(1.1);
 		}
 	}
-
 	&__box-text {
 		padding: 0 1em;
 	}
@@ -148,13 +137,11 @@ body {
 		color: $white;
 	}
 }
-
 // HEADER-SECOND
 .header-second {
 	height: 90vh;
 	background-image: url(../img/hero-img-mini.jpg);
 }
-
 // MENU
 .menu {
 	&__card {
@@ -169,7 +156,6 @@ body {
 		border-radius: 8px;
 		color: $white;
 	}
-
 	&__card-img {
 		width: 40%;
 		margin-bottom: 1em;
@@ -186,7 +172,6 @@ body {
 		text-align: center;
 	}
 }
-
 // REVIEWS
 .reviews {
 	&__box {
@@ -210,22 +195,18 @@ body {
 		}
 	}
 }
-
 // HEADER-THIRD
 .header-third {
 	height: 90vh;
 	background-image: url(../img/hero-img2-mini.jpg);
 }
-
 //GALLERY
 .gallery {
 	&__box {
 		margin: 0.5em;
 	}
 }
-
 // CONTACT
-
 .contact {
 	&__header {
 		font-size: 1.8rem;
@@ -253,7 +234,6 @@ body {
 		border-bottom: 2px solid $first-color;
 		color: $white;
 	}
-
 	&__input::placeholder {
 		text-transform: uppercase;
 		text-align: center;
@@ -281,20 +261,17 @@ body {
 		color: $white;
 	}
 }
-
 // FOOTER
 
 .footer {
 	background-color: $dark;
 	color: $white;
-
 	&__boxes {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-
 	&__box {
 		display: flex;
 		flex-direction: column;
@@ -332,7 +309,6 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
 	&__author-text {
 		margin-top: 0;
 		padding: 0 1em 1em;
@@ -348,6 +324,7 @@ body {
 		}
 	}
 }
+
 
 // MEDIA QUERIES
 @import './small';

@@ -75,11 +75,14 @@
 		}
 		&__card {
 			margin: 1em;
-			padding: 1em;
+			padding: 3em 1em;
 		}
 		&__card-img {
 			width: 25%;
 			margin-bottom: 1.5em;
+		}
+		&__card-section-title{
+			font-size: 2rem;
 		}
 		&__card-title {
 			font-size: 1rem;
@@ -89,7 +92,7 @@
 		}
 		&__card-button {
 			padding: 1em 2em;
-			font-size: 1rem;
+			font-size: .8rem;
 		}
 	}
 
@@ -108,7 +111,6 @@
 			}
 		}
 	}
-	// HEADER-THIRD
 	.header-third {
 		background-image: url(../img/hero-img2-big.jpg);
 	}
@@ -185,7 +187,7 @@
 	.menu {
 		&__card {
 			margin: 1em;
-			padding: 2em;
+			padding: 4em 2em;
 		}
 		&__card-img {
 			width: 35%;
@@ -211,7 +213,7 @@
 	}
 	.gallery {
 		&__img {
-			margin: 1em;
+			margin: 3em;
 		}
 	}
 }

@@ -4,7 +4,6 @@
 	max-width: 1200px;
 	z-index: 10;
 }
-
 .hero-img {
 	display: flex;
 	justify-content: center;
@@ -42,23 +41,20 @@
 		// animation: show 5s 3s linear forwards;
 	}
 }
-
 .section-title {
 	font-size: 2rem;
 	margin-bottom: 1em;
 	text-align: center;
 	text-transform: uppercase;
 	color: $first-color;
-	font-family: 'Rancho', cursive;
+	font-family: cursive;
 }
-
 .section-header {
 	font-size: 2.2rem;
 	margin-top: 1em;
 	margin-bottom: 0.5;
-	font-family: 'Chango', cursive;
+	font-family: cursive;
 }
-
 .button {
 	padding: 1em 2em;
 	background: none;
