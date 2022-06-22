@@ -8,7 +8,6 @@ const footerYear = document.querySelector('.footer__year')
 const hamburger = () => {
 	hamburgerBtn.classList.toggle('is-active')
 	links.classList.toggle('active')
-	links.classList.toggle('show-nav')
 }
 
 const handleFooterYear = () =>{
@@ -28,5 +27,3 @@ hamburgerBtn.addEventListener('click', hamburger)
 
 handleFooterYear()
 closeNav()
-
-
