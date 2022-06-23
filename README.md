@@ -17,8 +17,8 @@ Project is created with:
 
 ## Sources
 In this project I used:
-* hamburger Icon (#https://github.com/jonsuh/hamburgers)
-* slick (#https://github.com/kenwheeler/slick)
+* hamburger Icon (https://github.com/jonsuh/hamburgers)
+* slick (https://github.com/kenwheeler/slick)
 
 ## Live
 https://gacmen45.github.io/Restuarant-WebPage/
