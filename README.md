@@ -1,6 +1,6 @@
 # Restuarant-WebPage
 
-##Table of Contents
+## Table of Contents
 *[General info] (*general-info)
 *[Technologies] (*technologies)
 *[Sources] (*sources)
