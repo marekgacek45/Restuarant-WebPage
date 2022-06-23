@@ -1,10 +1,10 @@
 # Restuarant-WebPage
 
 ## Table of Contents
-* [General info] (#general-info)
-* [Technologies] (#technologies)
-* [Sources] (#sources)
-* [Live] (#live)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Sources](#sources)
+* [Live](#live)
 
 ## General Info
 My first independent project, introduce example of restaurant website.
