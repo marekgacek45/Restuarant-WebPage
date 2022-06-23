@@ -22,7 +22,6 @@ body {
 }
 
 
-
 // HAMBURGER
 
 .hamburger {
@@ -50,6 +49,7 @@ body {
 	background-color: $first-color;
 	width: 100%;
 	z-index: 10000;
+	opacity: 0;
 	&__container {
 		display: flex;
 		flex-direction: column;

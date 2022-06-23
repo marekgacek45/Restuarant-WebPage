@@ -16,6 +16,11 @@
   }
 }
 
+.animation-show {
+  -webkit-animation: show 2s linear forwards;
+          animation: show 2s linear forwards;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 100%;
@@ -148,6 +153,7 @@ body {
   background-color: #ed5440;
   width: 100%;
   z-index: 10000;
+  opacity: 0;
 }
 
 .nav__container {

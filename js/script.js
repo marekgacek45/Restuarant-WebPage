@@ -10,20 +10,30 @@ const hamburger = () => {
 	links.classList.toggle('active')
 }
 
-const handleFooterYear = () =>{
-const date = new Date()
-const year = date.getFullYear()
+const handleFooterYear = () => {
+	const date = new Date()
+	const year = date.getFullYear()
 
-footerYear.innerHTML = year
+	footerYear.innerHTML = year
 }
 
 const closeNav = () => {
 	linksA.forEach(linkA => {
-		linkA.addEventListener('click',()=>hamburger())
+		linkA.addEventListener('click', hamburger)
 	})
+}
+
+const handleObserver = () => {
+	const scroll = window.scrollY
+	console.log(scroll)
+	if (scroll >= 300) {
+		nav.classList.add('animation-show')
+	}
 }
 
 hamburgerBtn.addEventListener('click', hamburger)
 
 handleFooterYear()
 closeNav()
+handleObserver()
+window.addEventListener('scroll', handleObserver)
