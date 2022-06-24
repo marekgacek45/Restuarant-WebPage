@@ -26,8 +26,12 @@ const closeNav = () => {
 const handleObserver = () => {
 	const scroll = window.scrollY
 	console.log(scroll)
-	if (scroll >= 300) {
+	if (scroll >= 300 ) {
+		nav.classList.remove('animation-close')
 		nav.classList.add('animation-show')
+	}else if (scroll <300 ){
+		nav.classList.remove('animation-show')
+		nav.classList.add('animation-close')
 	}
 }
 

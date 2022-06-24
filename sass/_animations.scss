@@ -7,8 +7,19 @@
 	}
 }
 
-.animation-show {
-	animation: show 2s linear forwards;
-};
+@keyframes close{
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
 
+.animation-show {
+	animation: show 1s linear forwards;
+}
+.animation-close{
+animation: close 1s linear forwards;
+}
 

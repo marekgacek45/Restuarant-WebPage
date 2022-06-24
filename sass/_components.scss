@@ -29,16 +29,12 @@
 		color: $first-color;
 		font-family: 'Chango', cursive;
 		font-size: 2rem;
-		// opacity: 0;
-		// animation: show 5s 1s linear forwards;
 	}
 	&__text {
 		padding: 0 1em;
 		text-align: center;
 		color: $white;
 		font-size: 1rem;
-		// opacity:0;
-		// animation: show 5s 3s linear forwards;
 	}
 }
 .section-title {
@@ -47,13 +43,11 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: $first-color;
-	font-family: cursive;
 }
 .section-header {
 	font-size: 2.2rem;
 	margin-top: 1em;
 	margin-bottom: 0.5;
-	font-family: cursive;
 }
 .button {
 	padding: 1em 2em;
@@ -61,7 +55,8 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	border-radius: 8px;
-	box-shadow: 5px 5px 10px black;
+	border: 1px solid $first-color;
+	box-shadow: 3px 3px 5px black;
 	color: $white;
 	transition: background-color 0.3s, transform 0.3s;
 	cursor: pointer;

@@ -16,9 +16,32 @@
   }
 }
 
+@-webkit-keyframes close {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes close {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .animation-show {
-  -webkit-animation: show 2s linear forwards;
-          animation: show 2s linear forwards;
+  -webkit-animation: show 1s linear forwards;
+          animation: show 1s linear forwards;
+}
+
+.animation-close {
+  -webkit-animation: close 1s linear forwards;
+          animation: close 1s linear forwards;
 }
 
 .wrapper {
@@ -78,14 +101,12 @@
   text-align: center;
   text-transform: uppercase;
   color: #ed5440;
-  font-family: cursive;
 }
 
 .section-header {
   font-size: 2.2rem;
   margin-top: 1em;
   margin-bottom: 0.5;
-  font-family: cursive;
 }
 
 .button {
@@ -94,8 +115,9 @@
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 8px;
-  -webkit-box-shadow: 5px 5px 10px black;
-          box-shadow: 5px 5px 10px black;
+  border: 1px solid #ed5440;
+  -webkit-box-shadow: 3px 3px 5px black;
+          box-shadow: 3px 3px 5px black;
   color: #fff;
   -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
   transition: background-color 0.3s, -webkit-transform 0.3s;
@@ -193,7 +215,7 @@ body {
 }
 
 .nav__box-header {
-  font-size: 3.3rem;
+  font-size: 2.3rem;
   margin-left: 0.2em;
   color: #fff;
   font-family: 'Rancho', cursive;
@@ -271,6 +293,7 @@ body {
   width: 100%;
   padding: 0 1em;
   margin: 1em 0;
+  border-radius: 8px;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -313,9 +336,9 @@ body {
           align-items: center;
   margin: 0.5em;
   padding: 2em 1em;
-  border: 3px solid transparent;
-  -webkit-box-shadow: 5px 5px 15px black inset;
-          box-shadow: 5px 5px 15px black inset;
+  border: 3px solid #ed5440;
+  -webkit-box-shadow: 5px 5px 7px black;
+          box-shadow: 5px 5px 7px black;
   border-radius: 8px;
   color: #fff;
 }
@@ -343,8 +366,10 @@ body {
   margin-bottom: 2em;
   padding: 1em;
   color: #fff;
-  -webkit-box-shadow: 5px 5px 15px #222 inset;
-          box-shadow: 5px 5px 15px #222 inset;
+  border: 3px solid #ed5440;
+  -webkit-box-shadow: 5px 5px 7px black;
+          box-shadow: 5px 5px 7px black;
+  border-radius: 8px;
 }
 
 .reviews__text {
@@ -370,6 +395,10 @@ body {
 
 .gallery__box {
   margin: 0.5em;
+}
+
+.gallery__img {
+  border-radius: 8px;
 }
 
 .contact__header {
@@ -581,7 +610,7 @@ body {
     margin-left: 1em;
   }
   .nav__box-header {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .menu__card-img {
     width: 35%;
