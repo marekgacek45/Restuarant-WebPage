@@ -116,8 +116,8 @@
   font-weight: bold;
   border-radius: 8px;
   border: 1px solid #ed5440;
-  -webkit-box-shadow: 3px 3px 5px black;
-          box-shadow: 3px 3px 5px black;
+  -webkit-box-shadow: 3px 3px 5px #ed5440;
+          box-shadow: 3px 3px 5px #ed5440;
   color: #fff;
   -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
   transition: background-color 0.3s, -webkit-transform 0.3s;
@@ -348,9 +348,9 @@ body {
           align-items: center;
   margin: 0.5em;
   padding: 2em 1em;
-  border: 3px solid #ed5440;
-  -webkit-box-shadow: 5px 5px 7px black;
-          box-shadow: 5px 5px 7px black;
+  border: 1px solid #ed5440;
+  -webkit-box-shadow: 3px 3px 3px #ed5440;
+          box-shadow: 3px 3px 3px #ed5440;
   border-radius: 8px;
   color: #fff;
 }
@@ -378,9 +378,9 @@ body {
   margin-bottom: 2em;
   padding: 1em;
   color: #fff;
-  border: 3px solid #ed5440;
-  -webkit-box-shadow: 5px 5px 7px black;
-          box-shadow: 5px 5px 7px black;
+  border: 1px solid #ed5440;
+  -webkit-box-shadow: 3px 3px 3px #ed5440;
+          box-shadow: 3px 3px 3px #ed5440;
   border-radius: 8px;
 }
 
@@ -975,8 +975,8 @@ body {
     margin-left: 0.3em;
     font-size: 4.5rem;
   }
-  .nav__links-li {
-    font-size: 2.4rem;
+  .nav__links-a {
+    font-size: 2rem;
   }
   .menu__card {
     margin: 1em;

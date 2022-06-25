@@ -2,7 +2,6 @@ const hamburgerBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.nav__links')
 const linksA = document.querySelectorAll('.nav__links-a')
 const nav = document.querySelector('.nav')
-const sections = document.querySelectorAll('.section')
 const footerYear = document.querySelector('.footer__year')
 
 const hamburger = () => {
@@ -34,6 +33,7 @@ const handleObserver = () => {
 		nav.classList.add('animation-close')
 	}
 }
+
 
 hamburgerBtn.addEventListener('click', hamburger)
 

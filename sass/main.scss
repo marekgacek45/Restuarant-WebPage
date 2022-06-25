@@ -156,8 +156,8 @@ body {
 		align-items: center;
 		margin: 0.5em;
 		padding: 2em 1em;
-		border: 3px solid $first-color;
-		box-shadow: 5px 5px 7px black;
+		border: 1px solid $first-color;
+		box-shadow: 3px 3px 3px $first-color;
 		border-radius: 8px;
 		color: $white;
 	}
@@ -184,8 +184,8 @@ body {
 		margin-bottom: 2em;
 		padding: 1em;
 		color: $white;
-		border: 3px solid $first-color;
-		box-shadow: 5px 5px 7px black;
+		border: 1px solid $first-color;
+		box-shadow: 3px 3px 3px $first-color;
 		border-radius: 8px;
 	}
 	&__text {
@@ -344,3 +344,4 @@ body {
 @import './small';
 @import './medium';
 @import './large';
+

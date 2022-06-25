@@ -56,7 +56,7 @@
 	font-weight: bold;
 	border-radius: 8px;
 	border: 1px solid $first-color;
-	box-shadow: 3px 3px 5px black;
+		box-shadow: 3px 3px 5px $first-color;
 	color: $white;
 	transition: background-color 0.3s, transform 0.3s;
 	cursor: pointer;
