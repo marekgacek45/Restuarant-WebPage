@@ -119,11 +119,14 @@ body {
 		margin: 2em 0;
 	}
 	&__box-img {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
 		img {
-			width: 100%;
+			width: 95%;
 			padding: 0 1em;
 			margin: 1em 0;
-			border-radius: 8px;
 			transition: transform 0.3s;
 		}
 		img:hover {
@@ -159,7 +162,7 @@ body {
 		color: $white;
 	}
 	&__card-img {
-		width: 40%;
+		width: 3rem;
 		margin-bottom: 1em;
 	}
 	&__card-title {

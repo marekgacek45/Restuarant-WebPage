@@ -18,7 +18,7 @@
 	}
 	.menu {
 		&__card-img {
-			width: 35%;
+			width: 5rem;
 		}
 		&__card-title {
 			font-size: 1.2rem;
@@ -46,17 +46,17 @@
 		}
 	}
 	.section-title {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	.section-header {
-		font-size: 3.5rem;
+		font-size: 3.0rem;
 	}
 	.nav {
 		&__box-logo {
 			margin-left: 1.3em;
 		}
 		&__box-header {
-			font-size: 4.3rem;
+			font-size: 3.5rem;
 		}
 	}
 	.about {
@@ -69,14 +69,14 @@
 			margin: 1em 3em;
 		}
 		&__card-img {
-			width: 20%;
+			width: 6rem;
 			margin-bottom: 1.5em;
 		}
 		&__card-title {
 			font-size: 1.4rem;
 		}
 		&__card-text {
-			font-size: 1.2rem;
+			font-size: 1rem;
 		}
 		&__card-button {
 			padding: 1.5em 3em;
@@ -85,12 +85,12 @@
 
 	.reviews {
 		&__box {
-			margin: 1em;
+			margin: 1em 3em;
 			margin-bottom: 2em;
 			padding: 2em 1em;
 		}
 		&__text {
-			font-size: 1.2rem;
+			font-size: 1rem;
 			&--strong {
 				font-size: 1.5rem;
 			}

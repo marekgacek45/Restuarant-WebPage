@@ -5,21 +5,22 @@
 	//COMPONENTS
 	.hero-img {
 		&__heading {
-			font-size: 6rem;
+			font-size: 5rem;
 			letter-spacing: 15px;
 		}
 		&__text {
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 		}
 	}
 	.section-title {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	.section-header {
-		font-size: 5rem;
+		font-size: 4.5rem;
 	}
 
 	.nav {
+		
 		&__container {
 			display: flex;
 			flex-direction: row;
@@ -38,6 +39,9 @@
 		&__links-li {
 			font-size: 2.3rem;
 		}
+		&__links-a{
+			font-size: 2rem;
+		}
 	}
 
 	.header {
@@ -48,6 +52,10 @@
 		&__box {
 			flex-direction: row;
 			justify-content: space-between;
+		}
+
+		&__text{
+			font-size: 1.2rem;
 		}
 		&__box-img {
 			&--right {
@@ -169,7 +177,7 @@
 @media (min-width: 1400px) {
 	.hero-img {
 		&__heading {
-			font-size: 7rem;
+			font-size: 6rem;
 		}
 	}
 	.nav {
@@ -178,7 +186,7 @@
 		}
 		&__box-header {
 			margin-left: 0.3em;
-			font-size: 5rem;
+			font-size: 4.5rem;
 		}
 		&__links-li {
 			font-size: 2.4rem;
