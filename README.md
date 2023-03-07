@@ -36,7 +36,7 @@ In this project I used:
 * slick (https://github.com/kenwheeler/slick)
 
 ## Live
-https://gacmen45.github.io/Restuarant-WebPage/
+https://marekgacek45.github.io/Restuarant-WebPage/
 
 </div>
 
